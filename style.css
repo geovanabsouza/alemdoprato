@@ -12,9 +12,11 @@ body{
 
 section{
     padding: 60px 5%;
-    padding: 60px 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-bottom: 2px solid #4682B4;
 }
+
 
 section:last-of-type{
     border-bottom: none;
@@ -135,7 +137,15 @@ nav ul li a:hover{
 
 .titleqs{
     font-size: 55px;
+    margin-top: 100px;
     margin-bottom: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.titlevm{
+    font-size: 55px;
+    margin-top: 120px;
+    margin-bottom: 10px;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -148,15 +158,16 @@ nav ul li a:hover{
 /* =========================
    BANNER
 ========================= */
-
 .banner{
     margin-top: 40px;
 }
 
 .bannerimg{
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: 5%;
+    border-radius: 2%;
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3);;
 }
 
 /* =========================
@@ -166,7 +177,6 @@ nav ul li a:hover{
 .fraseimpactante{
     color: #FF8C00;
     font-size: 28px;
-    padding: 40px 10%;
 }
 
 /* =========================
@@ -174,6 +184,7 @@ nav ul li a:hover{
 ========================= */
 
 .card-group{
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -188,11 +199,13 @@ nav ul li a:hover{
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: left;
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: ease-in-out 0.3 ;
 }
 
 .card-img-top{
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .card-title{
@@ -205,6 +218,13 @@ nav ul li a:hover{
 .card-text{
     font-size: 14px;
     text-align: justify;
+}
+
+
+.card:hover{
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+    translate: 1.2;
 }
 
 /* =========================
